@@ -1,0 +1,93 @@
+
+
+:root {
+    --backgroundC: blueviolet;
+    --texts: rgb(10, 236, 206);
+}
+
+body{
+    background-color: var(--backgroundC);
+    color: var(--texts);
+}
+/* body{
+    background-color: blueviolet;
+    color: rgb(10, 236, 206);
+} */
+
+#Output{
+    text-align: center;
+}
+h1{
+    color: aqua;
+    text-align: center;
+}
+.main-container{
+    width: 60%;
+    margin: auto;
+    
+}
+
+input{
+    width: 70%;
+    margin-bottom: 3%;
+    
+}
+
+input, label {
+    display: block;
+    align-content: center;
+    margin-left: 120px;
+    }
+
+button {
+    display: block;
+    margin: auto;
+    background: transparent;
+    border-color: rgb(10, 236, 206);
+    border-width: 2px;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+footer{
+    max-width: 85%;
+    margin: auto;
+}
+.no{
+    text-align: center;
+    font-size: 20px;
+}
+.inline{
+    display: inline;
+    margin: 1rem;   
+}
+.link{
+    
+    text-decoration: none;
+}
+.linker{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    margin: 2rem auto;
+    max-width: 100px;
+}
+.links{
+    text-decoration: none;
+}
+label {
+    font-size: 25px;
+}.links{
+    text-decoration: none;
+}
+table{
+    border: rgb(26, 40, 236);
+}
+    footer {
+        background-color: var(--primary-color);
+        padding: 1rem 1rem;
+        text-align: center;
+        color: white;
+        border-top-right-radius: 1rem;
+    }

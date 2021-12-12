@@ -18,11 +18,11 @@ function sum(){
             add = add + Number(date.charAt(inisyalizer));
         }
         if (add % numberr == 0){
-            Outputs.innerText = ("Lucky number he");
+            Outputs.innerText = ("Hey Great your birth date is lucky:)");
         }else {
-            Outputs.innerText = ("Lucky number nhi he");
+            Outputs.innerText = ("Opps, your Birth day date is not lucky. ");
         }
     }else{
-    Outputs.innerText = "Please enter both the fields:)"
+    Outputs.innerText = "Please Fill both the fields:)"
     }
 }

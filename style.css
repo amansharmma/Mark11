@@ -1,8 +1,8 @@
 
 
 :root {
-    --backgroundC: blueviolet;
-    --texts: rgb(10, 236, 206);
+    --backgroundC: rgb(235, 179, 227);
+    --texts: rgb(58, 30, 7);
 }
 
 body{
@@ -18,7 +18,7 @@ body{
     text-align: center;
 }
 h1{
-    color: aqua;
+    color: rgb(81, 85, 85);
     text-align: center;
 }
 .main-container{
@@ -43,7 +43,7 @@ button {
     display: block;
     margin: auto;
     background: transparent;
-    border-color: rgb(10, 236, 206);
+    border-color: rgb(121, 128, 127);
     border-width: 2px;
     padding: 0.5rem;
     border-radius: 10px;
@@ -88,6 +88,6 @@ table{
         background-color: var(--primary-color);
         padding: 1rem 1rem;
         text-align: center;
-        color: white;
+        color: blue;
         border-top-right-radius: 1rem;
     }
